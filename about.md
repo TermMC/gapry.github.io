@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, I'm a software developer in Macau.
+Hi, My Name is Gapry. I'm a Software Designer in Macao
