@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-27T06:42:35+08:00</updated><id>http://localhost:4000/</id><title type="html">NEXT-Writing</title><entry><title type="html">Setup OCaml in Manjaro</title><link href="http://localhost:4000/jekyll/update/2017/12/27/Setup-OCaml-In-Arch.html" rel="alternate" type="text/html" title="Setup OCaml in Manjaro" /><published>2017-12-27T06:19:38+08:00</published><updated>2017-12-27T06:19:38+08:00</updated><id>http://localhost:4000/jekyll/update/2017/12/27/Setup-OCaml-In-Arch</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/12/27/Setup-OCaml-In-Arch.html">&lt;h1 id=&quot;install&quot;&gt;Install&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo pacman -S ocaml opam
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;opam-configuration&quot;&gt;OPAM configuration&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ opam init -a -y --use-internal-solver
+$ opam switch -y 4.05.0 --use-internal-solver
+$ eval `opam config env`
+$ opam install -y utop ounit qtest yojson lwt menhir ansiterminal lambda-term merlin ocp-indent user-setup bisect --use-internal-solver
+$ opam user-setup install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Install</summary></entry></feed>
