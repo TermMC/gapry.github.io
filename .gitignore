@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+Gemfile.lock
 .sass-cache
 _site
 /.config
