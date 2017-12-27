@@ -20,3 +20,7 @@ $ eval `opam config env`
 $ opam install -y utop ounit qtest yojson lwt menhir ansiterminal lambda-term merlin ocp-indent user-setup bisect --use-internal-solver
 $ opam user-setup install
 ```
+
+# References
+1. [Official Document](https://ocaml.org/docs/install.html#Arch-Linux)
+2. [Installing OCaml for 3110](http://www.cs.cornell.edu/courses/cs3110/2017fa/install.html)
