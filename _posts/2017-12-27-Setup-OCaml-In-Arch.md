@@ -2,6 +2,7 @@
 layout: post
 title:  "Setup OCaml in Manjaro"
 date:   2017-12-27 06:19:38 +0800
+comments: True
 categories: jekyll update
 ---
 
