@@ -4,3 +4,4 @@ url: ""
 github_username:  gapry
 markdown: kramdown
 theme: minima
+highlighter: rouge
