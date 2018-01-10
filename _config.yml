@@ -1,8 +1,6 @@
-title: Prose-Revelation 
+title: Next Code
 baseurl: ""
 url: ""
 github_username:  gapry
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
