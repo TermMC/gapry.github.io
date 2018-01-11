@@ -4,7 +4,7 @@ gem "bundler", "~> 1.12"
 
 gem "jekyll", "~> 3.6.2"
 
-gem "minima", "~> 2.0"
+gem "jekyll-theme-minimal"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
