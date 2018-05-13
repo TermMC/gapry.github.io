@@ -4,6 +4,7 @@ url: ""
 github_username:  gapry
 markdown: kramdown
 theme: jekyll-theme-minimal
-language: ["en", "tw"]
+languages: ["en"]
+exclude_from_localizations: ["javascript", "images", "css"]
 plugins:
  - jekyll-feed
